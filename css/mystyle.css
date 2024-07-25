@@ -1,0 +1,71 @@
+
+.mg-left-minus-70{
+    margin-left:-70px !important;
+}
+.mg-0{
+    margin-top: 0px !important;
+}
+
+.logo img{
+    margin-top:-20px !important;
+    height:150px !important;
+    width: auto;
+
+}
+.mg-top-14{
+    margin-top:14px;
+}
+.row.mg-top-minus-20{
+    margin-top:-20px !important;
+}
+.copyrights{
+background-color: #f4eee5;
+color: #18254a;
+}
+.header-nav{
+    margin-top:-5px;
+
+}
+.enquiry-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:20px;
+}
+.enquiry-form input{
+    width: 100%;
+    padding-left:10px;
+    line-height: 45px;
+    margin-top:10px;
+    border: none;
+    border-radius: 5px;
+}
+.enquiry-form textarea{
+    width: 100%;
+    padding-left:10px;
+    line-height: 45px;
+    margin-top:10px;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.enquiry-form button{
+    padding: 10px 15px;
+    margin-top:20px;
+    background-color: #18254a;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    border-radius: 5px;
+    border: none;
+}
+.enquiry-form button:hover{
+    cursor: pointer;
+    background-color: #a3dc4a;
+    color: #18254a;
+    font-weight: 600;
+    
+}
+
+
