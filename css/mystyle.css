@@ -53,7 +53,7 @@ color: #18254a;
 .enquiry-form button{
     padding: 10px 15px;
     margin-top:20px;
-    background-color: #18254a;
+    background-color: #101820FF;
     color: white;
     font-weight: 600;
     font-size: 16px;
@@ -62,7 +62,7 @@ color: #18254a;
 }
 .enquiry-form button:hover{
     cursor: pointer;
-    background-color: #a3dc4a;
+    background-color: #F2AA4CFF;
     color: #18254a;
     font-weight: 600;
     
