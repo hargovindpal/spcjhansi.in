@@ -70,7 +70,7 @@ hr {
     margin-top: 20px;
     margin-bottom: 20px;
     border: 0;
-    border-top: 1px solid #18254a;
+    border-top: 1px solid #101820FF;
 }
 
 
@@ -87,7 +87,7 @@ Header Styles Start
 .header-style-1 {
     width: 100%;
     float: left;
-    background: rgba(24, 37, 74, .80);
+    background: #101820FF;
     position: absolute;
     left: 0;
     top: 0;
@@ -96,7 +96,7 @@ Header Styles Start
 
 .header-style-1.relative {
     position: relative;
-    background: #18254a;
+    background: #101820FF;
 }
 
 .header-style-1 .header-wrap {
@@ -166,7 +166,7 @@ Header Styles Start
 
 .header-style-1 .navbar-nav>li>a:hover,
 .header-style-1 .navbar-nav>li>a:focus {
-    color: #fa394a;
+    color: #73a372;
 }
 
 .my-account {
@@ -197,7 +197,7 @@ Header Styles Start
 }
 
 .my-account .acc-btn i {
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
     width: 43px;
     height: 42px;
@@ -232,7 +232,7 @@ ul.search-cart li {
 
 span.pcount {
     position: absolute;
-    background: red;
+    background: #73a372;
     width: 16px;
     height: 16px;
     border-radius: 30px;
@@ -261,8 +261,8 @@ span.pcount {
 
 .sicon-btn:hover,
 .btn-group.open .sicon-btn {
-    background: #fa394a;
-    border-color: #fa394a;
+    background: #73a372;
+    border-color: #73a372;
     color: #fff;
 }
 
@@ -407,7 +407,7 @@ span.pcount {
 }
 
 .dropdown-menu>li>a:hover {
-    background: #294373;
+    background: #101820FF;
     color: #fff;
 }
 
@@ -485,7 +485,7 @@ Home 1 Slider Start
 }
 
 .home1-slider .slide-caption a {
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
     display: inline-block;
     font-family: 'Poppins', sans-serif;
@@ -547,7 +547,7 @@ Home 1 Slider Start
 }
 
 .cart-box .item a {
-    color: #fa394a;
+    color: #73a372;
 }
 
 .cart-box .preview {
@@ -576,7 +576,7 @@ Home 1 Slider Start
 }
 
 .cart-box .view-link a {
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
     display: inline-block;
     line-height: 32px;
@@ -587,7 +587,7 @@ Home 1 Slider Start
 }
 
 .cart-box .view-link a:hover {
-    background: #18254a;
+    background: #101820FF;
     color: #fff;
 }
 
@@ -634,21 +634,21 @@ Home 1 content Start
     margin-bottom: 20px;
     font-size: 32px;
     font-weight: 600;
-    color: #243567;
+    color: #101820FF;
 }
 
 .welcome-title h1:after {
     position: absolute;
     left: 0;
     top: -2px;
-    background: #fa394a;
+    background: #73a372;
     content: "";
     height: 3px;
     width: 100px;
 }
 
 .welcome-title strong {
-    color: #fa394a;
+    color: #73a372;
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
     display: block;
@@ -664,10 +664,10 @@ Home 1 content Start
 
 a.btn-style-1 {
     display: inline-block;
-    border: 1px solid #18254a;
+    border: 1px solid #101820FF;
     line-height: 48px;
     padding: 0 30px;
-    color: #18254a;
+    color: #101820FF;
     font-family: 'Poppins', sans-serif;
     font-size: 14px;
     text-transform: uppercase;
@@ -677,7 +677,7 @@ a.btn-style-1 {
 }
 
 a.btn-style-1:after {
-    background: #fa394a;
+    background: #73a372;
     -moz-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
     -ms-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
     -webkit-transform: translateX(-50%) translateY(-50%) rotate(-25deg);
@@ -697,7 +697,7 @@ a.btn-style-1:after {
 
 a.btn-style-1:hover {
     color: #fff;
-    border-color: #fa394a;
+    border-color: #73a372;;
 }
 
 a.btn-style-1:hover:after {
@@ -784,7 +784,7 @@ a.btn-style-1:hover:after {
 }
 
 .campus-box:hover a {
-    color: #fa394a;
+    color: #73a372;;
 }
 
 ul.achievements {
@@ -815,7 +815,7 @@ ul.achievements i {
 }
 
 ul.achievements strong {
-    color: #333333;
+    color: #101820FF;
     font-weight: 700;
     font-size: 26px;
     display: block;
@@ -824,12 +824,12 @@ ul.achievements strong {
 
 ul.achievements span.title {
     font-size: 16px;
-    color: #333333;
+    color: #101820FF;
 }
 
 ul.achievements li:hover strong,
 ul.achievements li:hover i {
-    color: #fa394a;
+    color: #73a372;;
 }
 
 ul.achievements li:hover span.title {
@@ -948,7 +948,7 @@ span.tw-meta a {
 }
 
 .c2 {
-    background: #fa394a;
+    background: #73a372;
 }
 
 .c3 {
@@ -976,7 +976,7 @@ span.tw-meta a {
 .more-news {
     position: absolute;
     right: 15px;
-    background: #fa394a;
+    background: #73a372;;
     color: #fff;
     line-height: 30px;
     padding: 0 20px;
@@ -1009,7 +1009,7 @@ span.tw-meta a {
 .news-box a.news-details {
     width: 100%;
     display: block;
-    background: #fa394a;
+    background: #73a372;;
     color: #fff;
     text-align: center;
     line-height: 50px;
@@ -1031,7 +1031,7 @@ span.tw-meta a {
 }
 
 a.more-news:hover {
-    background: #18254a;
+    background: #101820FF;
     color: #fff;
 }
 
@@ -1040,7 +1040,7 @@ a.more-news:hover {
 }
 
 .news-box h4 {
-    color: #333333;
+    color: #101820FF;
     margin: 9px 0 11px;
     line-height: 30px;
     font-weight: bold;
@@ -1077,12 +1077,12 @@ a.more-news:hover {
 
 .news-box.active h4 a,
 .news-box:hover h4 a {
-    color: #294373;
+    color: #101820FF;
 }
 
 .news-box.active a.news-details,
 .news-box:hover a.news-details {
-    background: #294373;
+    background: #101820FF;
     color: #fff;
 }
 
@@ -1118,7 +1118,7 @@ a.more-news:hover {
 
 .load-more a {
     display: inline-block;
-    background: #294373;
+    background: #101820FF;
     color: #fff;
     text-align: center;
     line-height: 50px;
@@ -1131,7 +1131,7 @@ a.more-news:hover {
 }
 
 .load-more a:hover {
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
 }
 
@@ -1163,7 +1163,7 @@ a.more-news:hover {
     position: absolute;
     left: 0;
     bottom: 0;
-    background: #fa394a;
+    background: #73a372;
     width: 60px;
     height: 60px;
     text-align: center;
@@ -1202,7 +1202,7 @@ span.etime {
 }
 
 .event-box .event-excerpt h4 a {
-    color: #333333;
+    color: #101820FF;
 }
 
 .event-box .event-excerpt span {
@@ -1211,22 +1211,22 @@ span.etime {
 
 span.etime i,
 .event-box .event-excerpt span i {
-    color: #fa394a;
+    color: #73a372;
 }
 
 .event-box:hover .edate {
-    background: #294373;
+    background: #101820FF;
 }
 
 .event-box:hover h4 a {
-    color: #294373;
+    color: #101820FF;
 }
 
 .event-thumb a {
     width: 40px;
     height: 40px;
     background: #fff;
-    color: #fa394a;
+    color: #73a372;
     position: absolute;
     left: 0;
     right: 0;
@@ -1362,12 +1362,12 @@ span.etime i,
 
 .team-name h5 {
     font-weight: 600;
-    color: #333333;
+    color: #101820FF;
     margin-bottom: 2px;
 }
 
 .team-name strong {
-    color: #fa394a;
+    color: #73a372;
     font-weight: 400;
     font-size: 15px;
 }
@@ -1423,9 +1423,9 @@ ul.team-social a {
 }
 
 ul.team-social a:hover {
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
-    border-color: #fa394a;
+    border-color: #73a372;
 }
 
 .team-box .plus {
@@ -1434,7 +1434,7 @@ ul.team-social a:hover {
     bottom: 0;
     z-index: 99;
     width: 17px;
-    color: #294373;
+    color: #101820FF;
     cursor: pointer;
 }
 
@@ -1459,7 +1459,7 @@ ul.team-social a:hover {
 }
 
 .other-members ul {
-    background: #18254a;
+    background: #101820FF;
     padding: 7px 30px 10px;
     margin: 0px;
     list-style: none;
@@ -1482,12 +1482,12 @@ ul.team-social a:hover {
 .other-members a:before {
     content: "\f101";
     font-family: FontAwesome-free;
-    color: #fa394a;
+    color: #73a372;
     margin-right: 10px;
 }
 
 .other-members a:hover {
-    color: #fa394a;
+    color: #73a372;
 }
 
 .stitle2 {
@@ -1505,7 +1505,7 @@ ul.team-social a:hover {
     content: "";
     height: 3px;
     width: 67px;
-    background: #fa394a;
+    background: #73a372;
 }
 
 .meet-professors.team-page {
@@ -1553,9 +1553,9 @@ ul.team-social a:hover {
 .fl-pagination .pagination>li.active a,
 .fl-pagination .pagination>li>a:hover,
 .fl-pagination .pagination>li>span:hover {
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
-    border: 1px solid #fa394a;
+    border: 1px solid #73a372;
 }
 
 
@@ -1570,7 +1570,7 @@ ul.team-social a:hover {
 
 .ci-box {
     /* background: #f5f5f5; */
-    background: #18254a;
+    background: #101820FF;
     width: 100%;
     float: left;
     padding: 70px 20px 30px;
@@ -1615,7 +1615,7 @@ ul.team-social a:hover {
 }
 
 .ci-box.c2 .hcp-icon {
-    background: #fa394a;
+    background: #73a372;
 }
 
 .ci-box.c3 .hcp-icon {
@@ -1632,7 +1632,7 @@ ul.team-social a:hover {
 }
 
 .ci-box.c2:hover strong {
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
 }
 
@@ -1653,7 +1653,7 @@ ul.team-social a:hover {
 
 .ci-box.c2:hover .hcp-icon {
     background: #fff;
-    color: #fa394a;
+    color: #73a372;
 }
 
 .ci-box.c3:hover .hcp-icon {
@@ -1687,7 +1687,7 @@ Home 1 Footer Start
 ******************************************/
 
 .footer {
-    background: #18254a;
+    background: #101820FF;
     width: 100%;
     float: left;
     padding: 50px 0 0;
@@ -1779,9 +1779,9 @@ Home 1 Footer Start
 }
 
 .footer-social a:hover {
-    background: #18254a;
+    background: #101820FF;
     color: #fff;
-    border-color: #18254a;
+    border-color: #101820FF;
 }
 
 .newsletter {
@@ -1793,7 +1793,7 @@ Home 1 Footer Start
 }
 
 .newsletter .container {
-    background: #fa394a;
+    background: #73a372;
     overflow: hidden;
     padding: 40px 30px;
     width: 1000px;
@@ -1825,7 +1825,7 @@ Home 1 Footer Start
     position: absolute;
     right: 0;
     top: 0;
-    background: #18254a;
+    background: #101820FF;
     color: #fff;
     z-index: 99;
     font-family: 'Poppins', sans-serif;
@@ -2967,21 +2967,21 @@ a.ed {
 }
 
 .team-page .team-box .team-cap .plusc {
-    background: #fa394a;
+    background: #73a372;
 }
 
 .team-style-1.team-page .team-box ul.team-social a {
-    border-color: #fa394a;
-    color: #fa394a;
+    border-color: #73a372;
+    color: #73a372;
 }
 
 .team-style-1.team-page .team-box ul.team-social a:hover {
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
 }
 
 .team-style-1.team-page .team-box .team-cap strong {
-    color: #fa394a;
+    color: #73a372;
 }
 
 
@@ -3070,7 +3070,7 @@ a.ed {
 }
 
 .team-details-text strong.team-title {
-    color: #fa394a;
+    color: #73a372;
     font-size: 18px;
     margin-bottom: 8px;
     display: block;
@@ -3099,7 +3099,7 @@ a.ed {
 .team-details-text ul.check-list li:before {
     content: "\f105";
     font-family: FontAwesome-free;
-    color: #fa394a;
+    color: #73a372;
     margin-right: 10px;
 }
 
@@ -3117,7 +3117,7 @@ a.ed {
 
 .team-details-text .taddress li i {
     margin-right: 10px;
-    color: #fa394a;
+    color: #73a372;
 }
 
 .team-details-text ul.team-social {
@@ -3137,9 +3137,9 @@ a.ed {
 }
 
 .team-details-text ul.team-social a:hover {
-    background: #18254a;
+    background: #101820FF;
     color: #fff;
-    border-color: #18254a;
+    border-color: #101820FF;
 }
 
 .team-contact-form {
@@ -3187,7 +3187,7 @@ a.ed {
 
 .team-contact input[type=submit] {
     width: 100%;
-    background: #18254a;
+    background: #101820FF;
     color: #fff;
     border: 0;
     font-family: 'Poppins', sans-serif;
@@ -3202,7 +3202,7 @@ a.ed {
 }
 
 .team-contact input[type=submit]:hover {
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
 }
 
@@ -3229,7 +3229,7 @@ a.ed {
 .team-faq .panel.panel-default {
     border: 0px;
     box-shadow: none;
-    background: #18254a;
+    background: #101820FF;
     border-radius: 0px;
     padding: 25px 30px;
 }
@@ -3377,7 +3377,7 @@ Home 3 Start
 .header-style-3 .header-top {
     width: 100%;
     float: left;
-    background: #18254a;
+    background: #101820FF;
     padding: 5px 0;
 }
 
@@ -3385,7 +3385,7 @@ Home 3 Start
     width: 100%;
     float: left;
     /* background: #fff; */
-    background: #18254a;
+    background: #101820FF;
 }
 
 ul.header-left {
@@ -3398,6 +3398,9 @@ ul.header-left li {
     display: inline-block;
     margin-right: 30px;
 }
+.header-style-3 .header-nav li:hover li{
+    background: #73a372;
+}
 
 .header-right li:first-child,
 ul.header-left li:last-child {
@@ -3406,7 +3409,7 @@ ul.header-left li:last-child {
 
 ul.header-left a {
     /* color: #fff; */
-    color: #18254a;
+    color: #101820FF;
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 700;
@@ -3430,12 +3433,12 @@ ul.header-left a i {
 }
 
 .header-right a {
-    color: #18254a;
+    color: #101820FF;
     font-size: 14px;
 }
 
 .header-right li.apply a {
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
     text-transform: uppercase;
     font-weight: 700;
@@ -3447,7 +3450,7 @@ ul.header-left a i {
 
 ul.header-left a:hover,
 .header-right a:hover {
-    color: #fa394a;
+    color: #73a372;
 }
 
 .header-style-3 .navbar {
@@ -3494,7 +3497,7 @@ ul.header-left a:hover,
 
 .header-style-3 .navbar a:hover {
     background: none;
-    color: #fa394a;
+    color: #73a372;
 }
 
 .user-login {
@@ -3585,7 +3588,7 @@ ul.header-left a:hover,
     width: 30%;
     height: 100%;
     content: "";
-    background: rgba(250, 57, 74, .70);
+    background: rgba(242, 170, 76, 0.664);
 }
 
 .h3-banner-cap {
@@ -3617,7 +3620,7 @@ ul.header-left a:hover,
 }
 
 .h3-banner-cap .search-form {
-    background: #f4eee5;
+    background: #73a372;
     border-radius: 10px;
     padding-top: 10px;
     width: 100%;
@@ -3634,7 +3637,7 @@ ul.header-left a:hover,
 }
 
 .h3-banner-cap .search-form li i {
-    color: #fa394a;
+    color: #73a372;
     font-size: 40px;
     text-align: center;
 }
@@ -3655,7 +3658,7 @@ ul.header-left a:hover,
 }
 
 .h3-banner-cap .search-form .sbtn {
-    background: #18254a;
+    background: #101820FF;
     color: #fff;
     text-align: center;
     border-radius: 5px;
@@ -3668,7 +3671,7 @@ ul.header-left a:hover,
 }
 
 .h3-banner-cap .search-form .sbtn:hover {
-    background: #fa394a;
+    background: #73a372;
 }
 
 
@@ -3687,7 +3690,7 @@ ul.header-left a:hover,
 }
 
 .h3-title {
-    color: #333333;
+    color: #101820FF;
     text-align: center;
     position: relative;
     margin-bottom: 27px;
@@ -3700,7 +3703,7 @@ ul.header-left a:hover,
     left: 0;
     right: 0;
     content: "";
-    background: #fa394a;
+    background: #73a372;
     margin: -20px auto 0;
 }
 
@@ -3713,13 +3716,13 @@ ul.header-left a:hover,
 }
 
 .who-we-are a {
-    color: #18254a;
+    color: #101820FF;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
 
 .who-we-are a:hover {
-    color: #fa394a;
+    color: #73a372;
 }
 
 #h3-dprt {
@@ -3791,9 +3794,9 @@ button.owl-next {
 }
 
 #h3-dprt.owl-theme .owl-nav button:hover {
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
-    border-color: #fa394a;
+    border-color: #73a372;
 }
 
 #h3-dprt.owl-theme .owl-nav .disabled {
@@ -3840,8 +3843,8 @@ button.owl-next {
 
 .h3-featured-courses ul.nav li.active a,
 .h3-featured-courses ul.nav li a:hover {
-    background: #fa394a;
-    border-color: #fa394a;
+    background: #73a372;
+    border-color: #73a372;
     color: #fff;
 }
 
@@ -3908,7 +3911,7 @@ button.owl-next {
     width: 36px;
     height: 36px;
     background: #fff;
-    color: #18254a;
+    color: #101820FF;
     position: absolute;
     left: 0;
     top: 0;
@@ -3927,7 +3930,7 @@ button.owl-next {
     position: absolute;
     left: 0;
     top: 0;
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
     text-transform: uppercase;
     line-height: 29px;
@@ -3957,7 +3960,7 @@ button.owl-next {
 }
 
 .course-box-2 .course-meta li i {
-    color: #fa394a;
+    color: #73a372;
     margin-right: 5px;
 }
 
@@ -3973,7 +3976,7 @@ button.owl-next {
     text-transform: uppercase;
     font-size: 12px;
     font-family: 'Poppins', sans-serif;
-    color: #fa394a;
+    color: #73a372;
     font-weight: 600;
 }
 
@@ -3987,7 +3990,7 @@ button.owl-next {
 }
 
 .course-box-2:hover .course-excerpt h4 a {
-    color: #fa394a;
+    color: #73a372;
 }
 
 .course-box-2 .course-excerpt p {
@@ -4003,7 +4006,7 @@ button.owl-next {
 .cdetail {
     display: inline-block;
     border: 1px solid #e6e6e6;
-    color: #18254a;
+    color: #101820FF;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
@@ -4015,8 +4018,8 @@ button.owl-next {
 
 .course-thumb a:hover,
 .course-box-2:hover .cdetail {
-    background: #fa394a;
-    border-color: #fa394a;
+    background: #73a372;
+    border-color: #73a372;
     color: #fff;
 }
 
@@ -4057,7 +4060,7 @@ ul.course-meta {
 }
 
 .course-grid-box ul.course-meta li i {
-    color: #fa394a;
+    color: #73a372;
 }
 
 .course-grid-box .fc-rating {
@@ -4079,7 +4082,7 @@ ul.course-meta {
 }
 
 .course-grid-box h4 a:hover {
-    color: #18254a;
+    color: #101820FF;
 }
 
 .course-grid-box p {
@@ -4091,7 +4094,7 @@ ul.course-meta {
     display: inline-block;
     border: 0px;
     color: #fff;
-    background: #18254a;
+    background: #101820FF;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
@@ -4103,12 +4106,12 @@ ul.course-meta {
 }
 
 .course-grid-box:hover a.cdetail {
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
 }
 
 .course-grid-box:hover h4 a {
-    color: #fa394a;
+    color: #73a372;
 }
 
 .course-grid-box.cgb-2 .course-excerpt {
@@ -4126,7 +4129,7 @@ ul.course-meta {
 }
 
 .course-grid-box.cgb-2 .cprice {
-    color: #fa394a;
+    color: #73a372;
     font-size: 18px;
     font-weight: 300;
 }
@@ -4204,7 +4207,7 @@ ul.course-meta {
     position: absolute;
     right: 0;
     top: 0;
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
     z-index: 99;
     font-family: 'Poppins', sans-serif;
@@ -4270,7 +4273,7 @@ ul.course-meta {
 
 .h3-testimonials .tbox strong {
     display: block;
-    color: #fa394a;
+    color: #73a372;
     font-weight: 400;
     font-style: italic;
     font-size: 16px;
@@ -4369,13 +4372,13 @@ ul.course-meta {
 .home3-faq .panel-title a {
     display: block;
     position: relative;
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
 }
 
 .home3-faq .panel-title a.collapsed {
     background: #fff;
-    color: #333333;
+    color: #101820FF;
 }
 
 .home3-faq .panel-title a.collapsed:after {
@@ -4434,7 +4437,7 @@ footer.footer-with-map.footer .copyrights a {
 .footer-map:after {
     position: absolute;
     left: -70px;
-    background: #18254a;
+    background: #101820FF;
     top: -23px;
     width: 150px;
     height: 122%;
@@ -4576,7 +4579,7 @@ ul.social-links a {
 
 ul.social-links a:hover {
     background: #fff;
-    color: #fa394a;
+    color: #73a372;
 }
 
 p.quote {
@@ -4760,7 +4763,7 @@ side widgets start
     position: absolute;
     right: 0;
     top: 0px;
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
     line-height: 50px;
     border: 0px;
@@ -4787,7 +4790,7 @@ side widgets start
 }
 
 .sidebar .textwidget .name {
-    color: #fa394a;
+    color: #73a372;
     text-align: center;
     font-family: 'Great Vibes', cursive;
     margin-bottom: 20px;
@@ -4820,9 +4823,9 @@ side widgets start
 }
 
 .sidebar .textwidget .social a:hover {
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
-    border-color: #fa394a;
+    border-color: #73a372;
 }
 
 ul.side-quick-link {
@@ -4843,7 +4846,7 @@ ul.side-quick-link {
 .side-quick-link li a {
     font-size: 16px;
     font-weight: 600;
-    color: #333333;
+    color: #101820FF;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -4853,7 +4856,7 @@ ul.side-quick-link {
     top: 0px;
     height: 53px;
     width: 66px;
-    background: #18254a;
+    background: #101820FF;
     text-align: center;
     line-height: 53px;
     color: #fff;
@@ -4861,11 +4864,11 @@ ul.side-quick-link {
 }
 
 .side-quick-link li:hover a {
-    color: #fa394a;
+    color: #73a372;
 }
 
 .side-quick-link li:hover i {
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
 }
 
@@ -4925,11 +4928,11 @@ ul.upcoming-events h5 {
 }
 
 ul.upcoming-events h5 a {
-    color: #333333;
+    color: #101820FF;
 }
 
 ul.upcoming-events li:hover {
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
 }
 
@@ -4954,9 +4957,9 @@ ul.upcoming-events li:hover .upedate {
 }
 
 .tagcloud a:hover {
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
-    border-color: #fa394a;
+    border-color: #73a372;
 }
 
 ul.insta {
@@ -5045,7 +5048,7 @@ span.sb-date {
 
 span.sb-date i,
 .latest-posts h6 a:hover {
-    color: #fa394a;
+    color: #73a372;
 }
 
 
@@ -5129,7 +5132,7 @@ Event Detail Page Start
 }
 
 .event-gallery .owl-theme .owl-nav [class*='owl-']:hover {
-    background: #fa394a;
+    background: #73a372;
     color: #FFF;
     text-decoration: none;
 }
@@ -5160,11 +5163,11 @@ Event Detail Page Start
 
 .details-col .title-area h4 {
     margin-bottom: 14px;
-    color: #333333;
+    color: #101820FF;
 }
 
 .details-col .title-area span i {
-    color: #fa394a;
+    color: #73a372;
     margin-right: 5px;
 }
 
@@ -5177,7 +5180,7 @@ Event Detail Page Start
 .share button {
     width: 40px;
     height: 40px;
-    background: #18254a;
+    background: #101820FF;
     color: #fff;
     text-align: center;
     line-height: 40px;
@@ -5214,7 +5217,7 @@ Event Detail Page Start
 .event-counter {
     width: 100%;
     position: relative;
-    background: #fa394a;
+    background: #73a372;
     padding: 30px;
     overflow: hidden;
     margin-bottom: 30px;
@@ -5263,7 +5266,7 @@ a.participate {
     line-height: 50px;
     padding: 0 25px;
     text-transform: uppercase;
-    color: #333333;
+    color: #101820FF;
     font-weight: 700;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -5282,7 +5285,7 @@ a.participate:hover {
 }
 
 .details-col blockquote {
-    background: #18254a;
+    background: #101820FF;
     border: 0px;
     border-radius: 100px 0 0 100px;
     position: relative;
@@ -5306,7 +5309,7 @@ a.participate:hover {
     left: 50px;
     top: 35px;
     font-size: 60px;
-    border-right: 5px solid #fa394a;
+    border-right: 5px solid #73a372;
     padding-right: 22px;
 }
 
@@ -5391,7 +5394,7 @@ Blog Pages Start
 
 .blog-grid-post .post-excerpt .date {
     display: block;
-    color: #fa394a;
+    color: #73a372;
     font-weight: 500;
 }
 
@@ -5406,7 +5409,7 @@ Blog Pages Start
 
 .blog-grid-post .post-excerpt a.bd:hover,
 .blog-grid-post .post-excerpt h4 a:hover {
-    color: #fa394a;
+    color: #73a372;
 }
 
 .blog-grid-post .post-excerpt a.bd {
@@ -5518,7 +5521,7 @@ Blog Pages Start
 }
 
 .post-thumb a:hover {
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
 }
 
@@ -5580,7 +5583,7 @@ Blog Pages Start
 }
 
 .blog-details blockquote {
-    background: #18254a;
+    background: #101820FF;
     border: 0px;
     border-radius: 100px 0 0 100px;
     position: relative;
@@ -5605,7 +5608,7 @@ Blog Pages Start
     left: 50px;
     top: 35px;
     font-size: 60px;
-    border-right: 5px solid #fa394a;
+    border-right: 5px solid #73a372;
     padding-right: 22px;
 }
 
@@ -5615,7 +5618,7 @@ img.img-left {
 }
 
 span.note {
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
     padding: 0 5px;
 }
@@ -5803,23 +5806,23 @@ ul.course-details-meta li strong {
     display: block;
     font-weight: 600;
     font-family: 'Poppins', sans-serif;
-    color: #333333;
+    color: #101820FF;
     font-size: 16px;
     margin-bottom: 5px;
 }
 
 ul.course-details-meta .fc-rating {
-    color: #fa394a;
+    color: #73a372;
     font-size: 12px;
 }
 
 ul.course-details-meta h4 {
-    color: #fa394a;
+    color: #73a372;
     margin: 0px;
 }
 
 ul.course-details-meta a.enroll {
-    background: #18254a;
+    background: #101820FF;
     line-height: 50px;
     padding: 0 25px;
     color: #fff;
@@ -5873,7 +5876,7 @@ ul.course-details-meta a.enroll {
     width: 40px;
     height: 40px;
     border-radius: 100%;
-    background: #fa394a;
+    background: #73a372;
     text-align: center;
     line-height: 40px;
     color: #fff;
@@ -5896,7 +5899,7 @@ ul.course-details-meta a.enroll {
 .course-text .check-list li:before {
     content: "\f00c";
     font-family: FontAwesome-free;
-    color: #fa394a;
+    color: #73a372;
     font-size: 14px;
     margin-right: 12px;
 }
@@ -5909,7 +5912,7 @@ ul.course-details-meta a.enroll {
 }
 
 .time-table th {
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
     padding: 12px;
     border: 1px solid #fff;
@@ -5979,7 +5982,7 @@ Page 404 Start
 }
 
 .page-404-wrap .not-found {
-    color: #fa394a;
+    color: #73a372;
     font-size: 26px;
     font-family: 'Poppins', sans-serif;
     margin-bottom: 10px;
@@ -6018,7 +6021,7 @@ Page 404 Start
     line-height: 50px;
     padding: 0 20px;
     border: 0;
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
@@ -6027,7 +6030,7 @@ Page 404 Start
 }
 
 a.back2home {
-    background: #fa394a;
+    background: #73a372;
     display: inline-block;
     color: #fff;
     line-height: 50px;
@@ -6043,7 +6046,7 @@ a.back2home i {
 
 .search-404 button:hover,
 a.back2home:hover {
-    background: #294373;
+    background: #101820FF;
     color: #fff;
 }
 
@@ -6344,7 +6347,7 @@ Image Gallery End
 }
 
 .rev_slider_wrapper a {
-    background: #fa394a;
+    background: #73a372;
     color: #fff;
     text-transform: uppercase;
     font-family: 'Poppins', sans-serif;
@@ -6358,7 +6361,7 @@ Image Gallery End
 }
 
 .rev_slider_wrapper a:hover {
-    background: #18254a;
+    background: #101820FF;
     color: #fff;
 }
 
