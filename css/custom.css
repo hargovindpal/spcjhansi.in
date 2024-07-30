@@ -1709,10 +1709,12 @@ Home 1 Footer Start
     color: #fff;
     line-height: 30px;
     font-size: 14px;
+    font-weight: 500;
 }
-.widget .quick-links li:hover {
+.widget .quick-links li a:hover {
     background-color: none !important;
-    color: white !important;
+    color: #101820FF !important;
+    font-weight: 500;
 }
 
 .widget .quick-links a:before {

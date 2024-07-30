@@ -123,6 +123,7 @@ button:hover{
 
 .main-content li:hover {
     background-color: #73a372;
+
     color: #FFFFFF;
     cursor: pointer;
 }
@@ -185,7 +186,7 @@ button:hover{
 .enquiry-form button {
     padding: 10px 15px;
     margin-top: 20px;
-    background-color: #73a372;
+    background-color: #101820FF;
     color: white;
     font-weight: 600;
     font-size: 16px;
@@ -195,8 +196,8 @@ button:hover{
 
 .enquiry-form button:hover {
     cursor: pointer;
-    background-color: #a3dc4a;
-    color: #73a372;
+    background-color: #73b606;
+    color: #FFFFFF;
     font-weight: 600;
 
 }
@@ -332,7 +333,7 @@ button:hover{
 }
 
 .red {
-    color: #fa394a !important;
+    color: #101820FF !important;
 }
 
 /*CAREER FORM CSS*/
