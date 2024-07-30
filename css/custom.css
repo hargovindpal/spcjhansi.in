@@ -1711,9 +1711,17 @@ Home 1 Footer Start
     font-size: 14px;
     font-weight: 500;
 }
-.widget .quick-links li a:hover {
+ li a:hover {
     background-color: none !important;
     color: #101820FF !important;
+    font-weight: 500;
+}
+.copyrights a:hover {
+    color: #FFFFFF !important;
+    font-weight: 500;
+}
+.copyrights a {
+    color: #33aa58 !important;
     font-weight: 500;
 }
 
