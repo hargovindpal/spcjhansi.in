@@ -7,6 +7,10 @@
     display: flex;
     justify-content: space-around;
 }
+.mg-right{
+    position: absolute;
+    right:20px;
+}
 
 .mg-0 {
     margin-top: 0px !important;
@@ -38,13 +42,16 @@
 }
 
 .bg-blue {
-    background-color: #18254a;
+    background-color: #73a372;
     color: #FFFFFF !important;
 }
 
 .bdr-1 {
     border: 1px solid #CCC;
     padding: 10px;
+}
+.bdr-rds-10{
+    border-radius: 10px;
 }
 
 .flex-row {
@@ -59,6 +66,12 @@
     justify-content: center;
     
 }
+.flex-between{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
 
 .triangle-down {
     display: flex;
@@ -68,7 +81,7 @@
 	height: 60px;
 	border-left: 25px solid transparent;
 	border-right: 0px solid transparent;
-	border-top: 60px solid #d12828;
+	border-top: 60px solid #101820FF;
     
 }
 .triangle-down li a{
@@ -76,14 +89,14 @@
     list-style: none;
     margin:0px !important;
 }
-.top-rght button{
+button{
     border: none;
     padding:5px 10px;
-    background-color: #18254a;
+    background-color: #73a372;
 }
-.top-rght button:hover{
+button:hover{
     background-color: #FFFFFF;
-    color: #18254a;
+    color: #73a372;
 }
 
 
@@ -109,7 +122,7 @@
 }
 
 .main-content li:hover {
-    background-color: #18254a;
+    background-color: #73a372;
     color: #FFFFFF;
     cursor: pointer;
 }
@@ -135,7 +148,7 @@
 
 .copyrights {
     background-color: #f4eee5;
-    color: #18254a;
+    color: #73a372;
 }
 
 .header-nav {
@@ -172,7 +185,7 @@
 .enquiry-form button {
     padding: 10px 15px;
     margin-top: 20px;
-    background-color: #18254a;
+    background-color: #73a372;
     color: white;
     font-weight: 600;
     font-size: 16px;
@@ -183,7 +196,7 @@
 .enquiry-form button:hover {
     cursor: pointer;
     background-color: #a3dc4a;
-    color: #18254a;
+    color: #73a372;
     font-weight: 600;
 
 }
@@ -220,7 +233,7 @@
     max-height: 65vh;
     overflow: hidden;
     justify-content: space-between;
-    background-color: #18254a;
+    background-color: #73a372;
     text-align: center;
     box-shadow: -2px 5px 20px 10px rgba(128, 128, 128, 0.884);
     border-radius: 10px;
@@ -311,11 +324,11 @@
 /*Prayer Page Css*/
 
 .blue {
-    color: #18254a !important;
+    color: #73a372 !important;
 }
 
-.green {
-    color: #a3dc4a !important;
+.actual-blue {
+    color: #101820FF !important;
 }
 
 .red {
@@ -369,7 +382,7 @@
 .form-group button {
     width: 100%;
     padding: 10px;
-    background-color: #18254a;
+    background-color: #73a372;
     color: white;
     border: none;
     border-radius: 5px;
@@ -400,7 +413,7 @@
 h2 {
     text-align: center;
     margin-bottom: 20px;
-    color: #18254a;
+    color: #73a372;
     font-weight: 500;
 }
 
@@ -448,7 +461,7 @@ h2 {
 
 .sitemap li ul li a {
 
-    color: #18254a;
+    color: #73a372;
     text-decoration: none;
     padding-left: 10px;
 }
@@ -544,7 +557,7 @@ h2 {
 }
 
 .buttons button[type="submit"] {
-    background-color: #18254a;
+    background-color: #73a372;
     color: white;
 }
 
@@ -559,5 +572,5 @@ h2 {
 
 .buttons button[type="reset"]:hover {
     background-color: red;
-    color: #18254a;
+    color: #73a372;
 }

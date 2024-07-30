@@ -47,7 +47,9 @@ Dark Blue Color
 .input-group:hover i, .course-listing .course-grid-box .course-excerpt .cdetail, .blog-grid-post .post-meta li:hover, .copyrights a, a.btn-style-1, .who-we-are a .course-thumb a .cdetail .course-grid-box h4 a:hover {
 	color: #101820FF;
 }
-
+.copyrights{
+	background-color: #101820FF !important;
+}
 /******************************************
 Border Color
 ******************************************/

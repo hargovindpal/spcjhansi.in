@@ -1687,7 +1687,7 @@ Home 1 Footer Start
 ******************************************/
 
 .footer {
-    background: #101820FF;
+    background:#73a372;
     width: 100%;
     float: left;
     padding: 50px 0 0;
@@ -1709,6 +1709,10 @@ Home 1 Footer Start
     color: #fff;
     line-height: 30px;
     font-size: 14px;
+}
+.widget .quick-links li:hover {
+    background-color: none !important;
+    color: white !important;
 }
 
 .widget .quick-links a:before {
@@ -1750,7 +1754,6 @@ Home 1 Footer Start
 .copyrights {
     width: 100%;
     float: left;
-    background: #ebebeb;
     padding: 20px 0 15px;
     margin-top: 40px;
 }
@@ -1760,6 +1763,9 @@ Home 1 Footer Start
     margin: 0px;
     padding: 0px;
     list-style: none;
+}
+.footer-social li i{
+    color: #33aa58;
 }
 
 .footer-social li {
@@ -2041,7 +2047,7 @@ body .navbar-brand {
 
 .header-style-2 .navbar-nav>li>a:hover:before,
 .header-style-2 .navbar-nav>li>a:focus:before {
-    color: #33aa58;
+    color: #FFFFFF;
     text-shadow: 10px 0 #33aa58, -10px 0 #33aa58;
 }
 
@@ -3399,7 +3405,7 @@ ul.header-left li {
     margin-right: 30px;
 }
 .header-style-3 .header-nav li:hover li{
-    background: #73a372;
+    background: none;
 }
 
 .header-right li:first-child,
@@ -4932,7 +4938,7 @@ ul.upcoming-events h5 a {
 }
 
 ul.upcoming-events li:hover {
-    background: #73a372;
+    background: none;
     color: #fff;
 }
 
