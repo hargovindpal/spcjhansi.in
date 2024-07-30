@@ -1,71 +1,563 @@
-
-.mg-left-minus-70{
-    margin-left:-70px !important;
+.mg-left-minus-70 {
+    margin-left: -70px !important;
 }
-.mg-0{
+.mg-top-minus-70 {
+    margin-top: -60px !important;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.mg-0 {
     margin-top: 0px !important;
 }
 
-.logo img{
-    margin-top:-20px !important;
-    height:150px !important;
+.mg-tb-20 {
+    margin: 20px 0px !important;
+}
+.txt-white{
+    color: #FFFFFF !important;
+}
+.w-100 {
+    width: 100% !important;
+    padding: 0px 40px;
+}
+.mg-top-10{
+    margin-top: 10px;
+}
+
+.pd-10 {
+    padding: 10px;
+}
+.pd-left-20{
+    padding-left: 20px;
+}
+
+.posi-relative {
+    position: relative;
+}
+
+.bg-blue {
+    background-color: #18254a;
+    color: #FFFFFF !important;
+}
+
+.bdr-1 {
+    border: 1px solid #CCC;
+    padding: 10px;
+}
+
+.flex-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+.flex-row-2 {
+    padding-left:-40px !important;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.triangle-down {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+	width: 100%;
+	height: 60px;
+	border-left: 25px solid transparent;
+	border-right: 0px solid transparent;
+	border-top: 60px solid #d12828;
+    
+}
+.triangle-down li a{
+    text-decoration: none;
+    list-style: none;
+    margin:0px !important;
+}
+.top-rght button{
+    border: none;
+    padding:5px 10px;
+    background-color: #18254a;
+}
+.top-rght button:hover{
+    background-color: #FFFFFF;
+    color: #18254a;
+}
+
+
+.main-content li {
+    font-size: 15px;
+    color: #666666;
+    list-style: none;
+    border: 1px solid #CCC;
+    padding: 5px 5px;
+}
+
+
+
+
+
+.main-content li::before {
+    content: "⮚ ";
+    font-size: 20px;
+    font-weight: 900;
+    left: 0;
+    top: 0;
+    color: #d12828;
+}
+
+.main-content li:hover {
+    background-color: #18254a;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+.main-content li:hover {
+    color: #FFFFFF !important;
+    cursor: pointer;
+}
+
+.logo img {
+    margin-top: -20px !important;
+    height: 150px !important;
     width: auto;
 
 }
-.mg-top-14{
-    margin-top:14px;
+
+.mg-top-14 {
+    margin-top: 14px;
 }
-.row.mg-top-minus-20{
-    margin-top:-20px !important;
+
+.row.mg-top-minus-20 {
+    margin-top: -20px !important;
 }
-.copyrights{
-background-color: #f4eee5;
-color: #18254a;
+
+.copyrights {
+    background-color: #f4eee5;
+    color: #18254a;
 }
-.header-nav{
-    margin-top:-5px;
+
+.header-nav {
+    margin-top: -5px;
 
 }
-.enquiry-form{
+
+.enquiry-form {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding:20px;
+    padding: 20px;
 }
-.enquiry-form input{
+
+.enquiry-form input {
     width: 100%;
-    padding-left:10px;
-    line-height: 45px;
-    margin-top:10px;
+    padding-left: 10px;
+    line-height: 30px;
+    margin-top: 10px;
     border: none;
     border-radius: 5px;
 }
-.enquiry-form textarea{
+
+.enquiry-form textarea {
     width: 100%;
-    padding-left:10px;
-    line-height: 45px;
-    margin-top:10px;
+    padding-left: 10px;
+    line-height: 35px;
+    margin-top: 10px;
     border: none;
     border-radius: 5px;
 }
 
 
-.enquiry-form button{
+.enquiry-form button {
     padding: 10px 15px;
-    margin-top:20px;
-    background-color: #101820FF;
+    margin-top: 20px;
+    background-color: #18254a;
     color: white;
     font-weight: 600;
     font-size: 16px;
     border-radius: 5px;
     border: none;
 }
-.enquiry-form button:hover{
+
+.enquiry-form button:hover {
     cursor: pointer;
-    background-color: #F2AA4CFF;
+    background-color: #a3dc4a;
     color: #18254a;
     font-weight: 600;
-    
+
+}
+
+.welcome-title h1 {
+    text-align: center;
 }
 
 
+.formGroup{
+    margin-bottom:5px;
+}
+
+.formGroup input{
+    line-height: 30px;
+}
+
+/*** Facility ***/
+
+
+
+.inside-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    gap: 20px 30px;
+    padding: 20px;
+}
+
+.inside-container .facility {
+    width: 30%;
+    min-height: fit-content;
+    max-height: 65vh;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: #18254a;
+    text-align: center;
+    box-shadow: -2px 5px 20px 10px rgba(128, 128, 128, 0.884);
+    border-radius: 10px;
+    border: 1px solid whitesmoke;
+}
+
+.inside-container .facility img {
+    aspect-ratio: 4 / 2;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.inside-container .facility:hover img {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.inside-container .facility h3 {
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    color: white;
+    font-size: 15px;
+    line-height: 40px;
+    margin-top: 0px;
+    bottom: 0px;
+    position: relative;
+}
+
+.facility p {
+    padding: 10px;
+    color: #FFFFFF !important;
+    text-align: justify;
+    line-height: 20px;
+}
+.overlay {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin-left:-40px;
+}
+.overlay h1{
+    font-size: 50px;
+}
+.overlay h3{
+    font-size: 40px;
+}
+.overlay p{
+    margin-top:50px;
+    font-size: 25px;
+}
+
+@media screen and (max-width: 767px) {
+
+    .inside-container {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .inside-container .facility {
+        width: 100%;
+    }
+    .overlay {
+        margin-left:0px;
+        margin-top:-50px !important;
+        width: 90%;
+    }
+    .overlay h1{
+        font-size: 15px;
+    }
+    .overlay h3{
+        font-size: 12px;
+    }
+    .overlay p{
+        margin-top:10px;
+        font-size: 8px;
+    }
+    .col-sm-8 h3{
+        font-size: 18px !important;
+        font-weight: 600;
+    }
+
+}
+
+
+/*Prayer Page Css*/
+
+.blue {
+    color: #18254a !important;
+}
+
+.green {
+    color: #a3dc4a !important;
+}
+
+.red {
+    color: #fa394a !important;
+}
+
+/*CAREER FORM CSS*/
+.form-container {
+    max-width: 75%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-container h2,
+.form-container h3 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    padding: 8px;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+.form-group button {
+    width: 100%;
+    padding: 10px;
+    background-color: #18254a;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #a3dc4a;
+}
+
+.full-width {
+    width: 100%;
+}
+
+
+/*SITEMAP CSS */
+
+.sitemap-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #18254a;
+    font-weight: 500;
+}
+
+.sitemap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sitemap>li {
+    width: 30%;
+    margin-bottom: 20px;
+    line-height: 30px;
+    padding: 5px;
+    border: 1px solid #ccc;
+
+}
+.main-content .sitemap li:hover {
+    background: none !important;
+    cursor: pointer;
+}
+
+.sitemap>li>a {
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+    padding: 5px 10px;
+
+}
+
+.sitemap li ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sitemap li ul li {
+    margin-bottom: 5px;
+
+}
+
+.sitemap li ul li a {
+
+    color: #18254a;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.sitemap li ul li a:hover {
+    text-decoration: underline;
+    color: #fa394a;
+ 
+}
+.sitemap ul:hover  ul{
+
+    background-color: none !important;
+}
+
+
+
+
+
+/*GUEST BOOK CSS */
+.guestbook-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.guestbook-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.guestbook-form {
+    width: 80%;
+}
+
+.guestbook-form h2 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+.guestbook-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.guestbook-form input[type="text"],
+.guestbook-form input[type="email"],
+.guestbook-form input[type="url"],
+.guestbook-form select,
+.guestbook-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.guestbook-form textarea {
+    height: 100px;
+}
+
+.rating {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.rating input[type="radio"] {
+    margin-right: 5px;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.buttons button[type="submit"] {
+    background-color: #18254a;
+    color: white;
+}
+
+.buttons button[type="submit"]:hover {
+    background-color: #a3dc4a;
+}
+
+.buttons button[type="reset"] {
+    background-color: #fa394a;
+    color: white;
+}
+
+.buttons button[type="reset"]:hover {
+    background-color: red;
+    color: #18254a;
+}
