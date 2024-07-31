@@ -158,6 +158,26 @@ button:hover{
     margin-top: -5px;
 
 }
+.contact-form{
+    display: none;
+}
+button.contact-btn{
+    position: absolute;
+    right:5px;
+    top:80px;
+    z-index: 99999;
+    font-weight: 600;
+    font-size: 16px;
+    padding:10px 10px;
+    cursor: pointer;
+    color:#FFFFFF;
+    background-color:#d12828;
+    border-radius: 5px;
+}
+button.contact-btn:hover{
+    background-color: #73a372;
+    cursor: pointer;
+}
 
 .enquiry-form {
     display: flex;

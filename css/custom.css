@@ -3597,15 +3597,7 @@ ul.header-left a:hover,
     height: 100vh;
 }
 
-.home3-banner:after {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 30%;
-    height: 100%;
-    content: "";
-    background: rgba(242, 170, 76, 0.664);
-}
+
 
 .h3-banner-cap {
     position: absolute;

@@ -51,7 +51,7 @@
                   <div class="top-rght mg-top-minus-70">
                   <a class="txt-white" href="mailto:info@spdcjhansi.in"><i class="far fa-envelope"></i> info@spdcjhansi.in</a>
                  <a class="txt-white" href="guestbook.html">
-                  <button type="submit" class="btn-style-1 bdr-rds-10"> Contact Now</button>
+                  <button type="submit" class="btn-style-1 bdr-rds-10"> Guest Book</button>
                   </a>
                </div>
                </ul>
@@ -268,7 +268,8 @@
 
    <!--Banner Start-->
 
-   <div class="home3-banner">
+   <div class="home3-banner" style="position: relative;">
+      <button type="submit" class="contact-btn" onclick="showForm()">Contact Us</button>
       <div id="maincarousel" class="mgn-minus carousel slide section1" data-bs-ride="carousel">
          <!-- Indicators -->
          <div class="carousel-indicators">
@@ -306,7 +307,7 @@
                      <p > (<strong style="color: #ff8803;">Pursue Excellence in </strong> GNM, OT-Tech, and X-Ray Tech)
                   </p>
                </div>
-               <div class="col-md-4 col-sm-5" >
+               <div class="col-md-4 col-sm-5" id="contact-form">
                   <div class="search-form">
                      <h2 class="text-center"><i class="fas fa-graduation-cap" style="color: #fa394a;"></i></h2>
                      <h3 class="mb-3 text-center">Apply Now</h3>
@@ -355,7 +356,7 @@
          <div class="container">
             <div class="row" id="register_form">
                <div class="col-sm-8 col-xs-12">
-                  <h2 class="text-center"><i class="fas fa-graduation-cap" style="color: #fa394a;"></i></h2>
+                  <h2 class="text-center"><i class="fas fa-graduation-cap" style="color: #112049;"></i></h2>
                   <h3 class="mb-3 text-center">Apply Now</h3>
                   <form class="enquiry-form" action="https://api.web3forms.com/submit" method="POST">
                      <input type="hidden" name="access_key" value="486fdcd2-aa19-4ffa-96e6-131d56d191dc">
@@ -381,7 +382,7 @@
          
 <!-- Custom Confirmation / Success Page -->
 <!-- <input type="hidden" name="redirect" value="https://mywebsite.com/thanks.html"> -->
-                     <button type="submit" class="btn-style-1">Submit</button>
+                     <button type="submit" class="button">Submit</button>
                   </form>
                </div>
             </div>
@@ -695,6 +696,7 @@
    <script src="js/isotope.pkgd.min.js"></script>
    <script src="js/custom.js"></script>
    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+   <script src="js/myscript.js"></script>
    <!--Rev Slider Start-->
    <script type="text/javascript" src="js/rev-slider/js/jquery.themepunch.tools.min.js"></script>
    <script type="text/javascript" src="js/rev-slider/js/jquery.themepunch.revolution.min.js"></script>

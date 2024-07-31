@@ -12,6 +12,11 @@ jQuery(document).ready(function($) {
         })
     }
 
+    function showContactForm() {
+        document.getElementById('contact-form').style.display = 'block';
+    }
+    
+    
    // ------- News ------- //
    	// ------- Filter Gallery Start ------- //
     // if ($('.filter-news').length) {
