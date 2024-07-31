@@ -100,7 +100,15 @@ button:hover{
     background-color: #FFFFFF;
     color: #73a372;
 }
-
+.navbar-nav ul li:hover{
+    color: #d12828 !important;
+}
+.nav.dropdown:hover li{
+    background-color:#73a372!important;
+}
+.navbar-nav ul{
+    background-color: #73a372!important;
+}
 
 .main-content li {
     font-size: 15px !important;
@@ -126,8 +134,7 @@ button:hover{
 
 .main-content li:hover {
     background-color: #73a372;
-
-    color: #FFFFFF;
+    color: #FFFFFF !important;
     cursor: pointer;
 }
 .main-content li:hover {
