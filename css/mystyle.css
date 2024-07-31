@@ -160,6 +160,10 @@ button:hover{
 }
 .contact-form{
     display: none;
+    position: absolute !important;
+    left:50% !important;
+    top:50% !important;
+    transform: translate(50% -50%);
 }
 button.contact-btn{
     position: absolute;
@@ -183,6 +187,7 @@ button.contact-btn:hover{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 100%;
     padding: 20px;
 }
 
@@ -298,7 +303,7 @@ button.contact-btn:hover{
     flex-direction: column;
     width: 70%;
     margin-left:-40px;
-    margin-top:40px;
+    margin-top:15px;
     height: 100vh; 
     padding-left:30px;
 }
@@ -403,7 +408,8 @@ button.contact-btn:hover{
 }
 
 .form-group label {
-    margin-bottom: 5px;
+    visibility: none !important;
+    margin-bottom: 0px !important;
     font-size: 15px;
 }
 
