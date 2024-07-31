@@ -892,7 +892,7 @@ span.tw-meta a {
 }
 
 .home1-departments {
-    background: url(../images/h1deprt-bg.jpg) no-repeat center center;
+    background: url(../images/newsletterbg.jpg) no-repeat center fixed;
     background-size: cover;
     width: 100%;
     float: left;
@@ -911,6 +911,7 @@ span.tw-meta a {
     padding: 30px;
     position: relative;
     overflow: hidden;
+    cursor: pointer;
 }
 
 .dprt-box:after {
@@ -919,7 +920,7 @@ span.tw-meta a {
     top: 0;
     width: 100%;
     height: 0;
-    background: rgba(0, 0, 0, .1);
+    background: rgba(68, 199, 42, 0.425);
     content: "";
     opacity: 0;
 }
@@ -966,7 +967,7 @@ span.tw-meta a {
     width: 100%;
     float: left;
     padding: 74px 0 50px;
-    background: #ebebeb;
+    background: #33aa595e;
 }
 
 .home1-news .container {
@@ -1073,6 +1074,7 @@ a.more-news:hover {
     width: 100%;
     float: left;
     box-shadow: 0 3px 8px rgba(0, 0, 0, .0);
+    background-color: #33aa58;
 }
 
 .news-box.active h4 a,
