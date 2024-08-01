@@ -208,6 +208,15 @@ button.contact-btn:hover{
     border: 1px solid #ccc;
     border-radius: 5px;
 }
+.enquiry-form select {
+    width: 50%;
+    padding-left: 10px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left:150px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
 
 .enquiry-form textarea {
     width: 100%;
@@ -248,6 +257,9 @@ button.contact-btn:hover{
 }
 
 .formGroup input{
+    line-height: 30px;
+}
+.formGroup select{
     line-height: 30px;
 }
 
